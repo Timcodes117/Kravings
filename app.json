@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "KRAVING",
+    "slug": "KRAVING",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9976753474067424~7608510903"
+      }
+    },
+    "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9976753474067424~7948398620",
+        "googleMaps": {
+          "apiKey": "AIzaSyBpl-xRWJT8QjA008Cg3IhrsRQ-W6OJ-EM"
+       }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.kravings.tim"
+    },
+    
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
